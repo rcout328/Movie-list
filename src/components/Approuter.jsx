@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Moviemain from "./Moviemain";
 import Movie from "./Movie";
-import Tv from "./TV";
+import Tv from "./Tv";
 import Maintv from "./Maintv";
 import Voice from "./Voice";
 import Search from "./Search";
