@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
-const Kk1 = () => {
+const Kk = () => {
   const { _id } = useParams();
   const [movie, setMovie] = useState(null);
 
@@ -49,4 +49,4 @@ const Kk1 = () => {
   );
 };
 
-export default Kk1;
+export default Kk;
