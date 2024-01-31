@@ -5,7 +5,7 @@ import Tv from "./Tv";
 import Maintv from "./Maintv";
 import Voice from "./Voice";
 import Search from "./Search";
-import Kk from "./kk";
+import Kk from "./Kk1"
 import Search1 from "./Search1";
 import Kk2 from "./Kk2";
 
