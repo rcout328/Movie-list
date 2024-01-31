@@ -23,7 +23,7 @@ const Maintv = () => {
   return (
     <div className="bg-gradient-to-r from-purple-500 to-pink-500 min-h-screen flex flex-col items-center justify-center p-4">
       <button className="absolute top-4 left-4 bg-white rounded-full p-2 shadow-md text-xl">
-        <Link to="/">Back</Link>
+        <Link to="/tv">Back</Link>
       </button>
       <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-2xl flex flex-col md:flex-row md:items-center md:justify-between">
         <img 
