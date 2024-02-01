@@ -47,10 +47,6 @@ const Approuter = () => {
           path: '/kk2/:_id',
           element: <Kk2/>
       },
-      {
-        path: '/network',
-        element: <Network/>
-    },
         
     ]);
 
