@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="hover:text-gray-400">Home</Link>
           <Link to="/tv" className="hover:text-gray-400">TV</Link>
-          <Link to="/search" className="hover:text-gray-400">Search</Link>
+          <Link to="/search" className="hover:text-gray-400">Search (Movie)</Link>
           <Link to="/search1" className="hover:text-gray-400">Search (TV)</Link>
         </div>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
               <Link to="/tv" className="block py-3 hover:text-gray-400" onClick={() => setIsOpen(false)}>TV</Link>
             </li>
             <li>
-              <Link to="/search" className="block py-3 hover:text-gray-400" onClick={() => setIsOpen(false)}>Search</Link>
+              <Link to="/search" className="block py-3 hover:text-gray-400" onClick={() => setIsOpen(false)}>Search (Movie)</Link>
             </li>
             <li>
               <Link to="/search1" className="block py-3 hover:text-gray-400" onClick={() => setIsOpen(false)}>Search (TV)</Link>

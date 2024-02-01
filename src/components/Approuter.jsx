@@ -5,10 +5,10 @@ import Tv from "./Tv";
 import Maintv from "./Maintv";
 import Voice from "./Voice";
 import Search from "./Search";
-import Kk from "./Kk1"
+import Kk1 from "./Kk1"
 import Search1 from "./Search1";
 import Kk2 from "./Kk2";
-
+import Network from "./Network" 
 const Approuter = () => {
     const router = createBrowserRouter([
         {
@@ -37,7 +37,7 @@ const Approuter = () => {
         },
         {
             path: '/kk/:_id',
-            element: <Kk/>
+            element: <Kk1/>
         },
         {
           path: '/search1',
@@ -47,6 +47,10 @@ const Approuter = () => {
           path: '/kk2/:_id',
           element: <Kk2/>
       },
+      {
+        path: '/network',
+        element: <Network/>
+    },
         
     ]);
 
